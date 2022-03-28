@@ -1,0 +1,30 @@
+.friend_list{
+list-style: none;
+}
+.item{
+   display: flex;
+   align-items: center;
+   width: 400px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 20px;
+}
+.isOnline,
+.isOffline{
+   display: block;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+background-color: green;
+margin-right: 10px;
+}
+.isOffline{
+background-color: red;
+}
+.avatar{
+margin-right: 20px;
+}
+.name{
+   font-size: 25px;
+   font-weight: 800;
+}
