@@ -1,0 +1,29 @@
+.transaction_history{
+   width: 600px;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+.head_item{
+   min-width: 200px;
+   padding: 10px;
+   background-color: blue;
+   color: aliceblue;
+}
+
+.type_item{
+   padding: 5px;
+   text-align: center;   
+   text-transform: capitalize;
+   font-weight: 700;
+}
+.amount_item{
+   padding: 5px;
+   text-align: center;   
+   font-style: italic;
+}
+.currency_item{
+   padding: 5px;
+   text-align: center;   
+   font-weight: 800;
+}
